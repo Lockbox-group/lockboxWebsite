@@ -1,13 +1,7 @@
 
 body {
-/*
-    background-image: url("image/background.jpg");;
-    background-size: 100%;
-    background-repeat: no-repeat;
-*/
-
-   background-color:orange;
-   background-size:auto;
+    background-color:orange;
+    background-size: auto;
 }
 /* 
 #login_frame {
@@ -39,17 +33,14 @@ body {
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
-
+ 
 /* 
  *    background-color: rgba(240, 255, 255, 0.5);
  *     */
 
     border-radius: 10px;
     text-align: center;
-}
-
-
- 
+} 
 form p > * {
     display: inline-block;
     vertical-align: middle;
@@ -60,28 +51,46 @@ form p > * {
 }
  
 .label_input {
-    font-size: 20px;
+/*    font-size: 14px;
     font-family: Arial;
- 
-    width: 200px;
-    height: 100px;
-    line-height: 30px;
+    
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
     text-align: center;
- 
+    
     color: white;
-    background-color: #3CD8FF;
+    background-color: orange;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+ */
+    background-color: orange;
+   
+    line-height: 40px;
+    border: none;
+    color: white;
+    padding: 1px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 1px 0px;
+    cursor: pointer;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
  
 .text_field {
-    width: 278px;
+    width: 200px;
     height: 28px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border: 0;
 }
- 
 a.button {
     background-color: black;
     border-radius: 6px;
@@ -95,25 +104,26 @@ a.button {
     font-size: 20px;
     margin: 15px 5px;
     cursor: pointer;
+}
 /*
-    font-size: 35px;
+#btn_login {
+    font-size: 14px;
     font-family: Arial;
     
-    width: 500px;
-    height: 50px;
-    line-height: 80px;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
     text-align: center;
- 
+    
     color: white;
     background-color: orange;
     border-radius: 6px;
-    border: 10 px;
- 
-    float: none;
+    border: 0;
+    
+    float: left;
+}
  */
 
-}
- 
 #more_info {
     font-size: 12px;
     color: orange;
