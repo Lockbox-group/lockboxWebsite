@@ -1,10 +1,9 @@
 
 body {
-    background-image: url("image/background.jpg");;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-color:orange;
+    background-size: auto;
 }
- 
+/* 
 #login_frame {
     width: 400px;
     height: 260px;
@@ -21,7 +20,27 @@ body {
     border-radius: 10px;
     text-align: center;
 }
+*/
+#login_frame {
+    width: auto;
+    height: auto;
+   padding-top: 2em;
+    padding-right: 1em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
  
+/* 
+ *    background-color: rgba(240, 255, 255, 0.5);
+ *     */
+
+    border-radius: 10px;
+    text-align: center;
+} 
 form p > * {
     display: inline-block;
     vertical-align: middle;
@@ -73,7 +92,7 @@ form p > * {
     border: 0;
 }
 a.button {
-    background-color: orange;
+    background-color: black;
     border-radius: 6px;
     line-height: 40px;
     border: none;

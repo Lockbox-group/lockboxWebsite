@@ -61,15 +61,49 @@ if (isset($_REQUEST['logout'])) {
 
 // for this test, simply print that the authentication was successfull
 ?>
+
+
 <html>
-  <head>
-    <title>phpCAS simple client</title>
-  </head>
-  <body>
-    <h1>Successfull Authentication!</h1>
-    <?php require 'script_info.php' ?>
-    <p>the user's login is <b><?php echo phpCAS::getUser(); ?></b>.</p>
-    <p>phpCAS version is <b><?php echo phpCAS::getVersion(); ?></b>.</p>
-    <p><a href="?logout=">Logout</a></p>
-  </body>
+<?php
+include ('connectDB.php');
+//if ($mysqli->connect_errno) {
+  //  echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+//}
+//echo 'Successfully connected to database!';
+//mysql_select_db("kuangqi-db", $mysqli);
+$username = phpCAS::getUser();
+if($result = $mysqli->query("SELECT * FROM `lockbox` WHERE onid = '$username' and isAdmin = 1") ){
+
+    /* determine number of rows result set */
+ $row_cnt = $result->num_rows;
+ if($row_cnt>0){
+	 echo '<script>window.location.href = "../login/login.html";</script>';
+	
+	 $result->close();
+
+ }
+ else{
+	 echo '<script> alert("you are not admin");window.location.href = "index.html";</script>';
+	 $result->close();
+ }
+}
+
+/* close connection */
+$mysqli->close();
+?>
 </html>
+
+<!-- comment
+<html>
+<head>
+<title>phpCAS simple client</title>
+</head>
+<body>
+<h1>Successfull Authentication!</h1>
+<?php require 'script_info.php' ?>
+<p>the user's login is <b><?php echo phpCAS::getUser(); ?></b>.</p>
+<p>phpCAS version is <b><?php echo phpCAS::getVersion(); ?></b>.</p>
+<p><a href="?logout=">Logout</a></p>
+</body>
+</html>
+-->

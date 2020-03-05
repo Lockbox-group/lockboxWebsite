@@ -80,7 +80,6 @@ form p > * {
 #login_control {
     padding: 0 28px;
 }
-
 a.button {
     background-color: black;
     border-radius: 6px;
@@ -94,5 +93,36 @@ a.button {
     font-size: 15px;
     margin: 0px 0px;
     cursor: pointer;
+}
+#pickup_btn {
+    background-color: black;
+    border-radius: 6px;
+    line-height: 30px;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+#btn_login {
+    font-size: 14px;
+    font-family: Arial;
+    
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    border: 0;
+    
+    float: left;
 }
 

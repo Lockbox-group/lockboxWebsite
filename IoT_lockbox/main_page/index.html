@@ -26,49 +26,47 @@
  
     <p id="image_logo"><img src="image/logo.png" alt="Image" height="90" width="300"></p>
 
-    <form method="post" action="login.js">
+    <form method="post" action="pickup.php">
  
-        <p><label class="label_input">student ID</label><input type="text" id="student_ID" class="text_field"/></p>
-        <p><label class="label_input">passcode</label><input type="text" id="passcode" class="text_field"/></p>
-        <div align="center">
-            <a href="../student/student.html" class="button">Pickup Package</a></br>
-        </div>
+        <p><label class="label_input">student ID</label><input type="text" maxlength="9" name="student_id" oninput = "value=value.replace(/[^\d]/g,'')"  class="text_field"/></p>
+        <p><label class="label_input">passcode</label><input type="password" name="passcode" class="text_field"/></p>
+        <input type = "submit"  name = "submit" value = "Pickup Package"/>
 <!--
+        <div id ="pickup_control" align="center">
+            
+            <a href="../student/student.html" class="button">Pickup Package</a></br>
+            
+            <input type ="button" id = "pickup_btn"> Pickup Package<br>
+        </div>
+
         <div id="login_control">
             <input type="button" id="btn_login" value="Login" οnclick="login();"/>
-            <a id="more_info" href="https://eecs.oregonstate.edu/education/">About US</a>
         </div>
--->
+ -->
+
  </form>
 </div>
-<!--
-<script>
-
-function login(form) {
-
-    var username = document.getElementById("username");
-    var pass = document.getElementById("password");
-
-    if (username.value == "") {
-
-        alert("please enter the username");
-
-    } else if (pass.value  == "") {
-
-        alert("please enter the passward");
-
-    } else if(username.value == "admin" && pass.value == "123456"){
-
-        window.location.href="welcome.html";
-
-    } else {
-
-        alert("please enter the correct name and password")
-
+<script language = "javascript">
+    
+    function check(form)
+    {
+        if(form.student_ID.value == "123456789" && form.passcode.value == "123")
+        {
+            
+            window.open('../student/student.html')
+        }
+        else if (form.student_ID.value == "")
+        {
+            alert("Please enter id" )
+        }
+        else if (form.passcode.value == "")
+        {
+            alert("Please enter passcode")
+        }
+        else{
+            alert("error id and passcode")
+        }
     }
-}
-~  
 </script>
- -->
 </body>
 </html>
