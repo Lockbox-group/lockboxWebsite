@@ -13,8 +13,8 @@ CS: Mingming Su, Julie Kuang\
 ECE: Cody Nhem, Jacob Gibson
 
 # How to run
-Method 1: Click the link: web.engr.oregonstate.edu/~sum/IoT_lockbox/main_page/ \
-Method 2: Download the code and put it in your engineer pubilc webspace file (pubilc_html). And run the link: web.engr.oregonstate.edu/~username/IoT_lockbox/main_page/ \
+Method 1: Click the link: http://web.engr.oregonstate.edu/~sum/IoT_lockbox/main_page/ \
+Method 2: Download the code and put it in your engineer pubilc webspace file (pubilc_html). And run the link: http://web.engr.oregonstate.edu/~username/IoT_lockbox/main_page/ \
 *403 forbidden Problem: if you got the 403 forbidden problem when running in your webspace, please go the the TEACH to reset the website premission and reload again.
 
 # Function Introduce (NOW)
