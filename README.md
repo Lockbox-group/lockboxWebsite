@@ -4,6 +4,8 @@ The recent addition of internet controlled locking (doors, Amazon boxes, etc.) i
 
 
 Project link: http://eecs.oregonstate.edu/capstone/submission/pages/viewSingleProject.php?id=76PUZ5BqzxpBf3Tw
+Google site: https://sites.google.com/oregonstate.edu/ece44x201916
+Tekbots store: https://eecs.oregonstate.edu/tekbots/store
 
 
 # Group Member
