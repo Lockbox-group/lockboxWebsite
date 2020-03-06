@@ -18,11 +18,11 @@ Method 2: Download the code and put it in your engineer pubilc webspace file (pu
 *403 forbidden Problem: if you got the 403 forbidden problem when running in your webspace, please go the the TEACH to reset the website premission and reload again.
 
 # Function Introduce (NOW)
-1. For admin, using CAS way to login in.\
-2. Send the package in the send package page and send the email to the student email.\
+1. For admin, using CAS way to login in.
+2. Send the package in the send package page and send the email to the student email.
 3. For student, enter the information in the main page to open the box.
 
 # Function Introduce (Future)
-1. Send the signal through the WIFI to the lockbox and the lockbox will open.\
-2. After students pickup the package, they will recieve the email, like " Your package had picked up".\
+1. Send the signal through the WIFI to the lockbox and the lockbox will open.
+2. After students pickup the package, they will recieve the email, like " Your package had picked up".
 3. History: Admin can check the send package history.
