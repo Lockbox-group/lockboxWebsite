@@ -14,14 +14,14 @@ ECE: Cody Nhem, Jacob Gibson
 
 # Set up
 
-This code directory is fully installed on a student webspace: http://web.engr.oregonstate.edu/~sum/IoT_lockbox/main_page/ \
+This code directory is fully installed on a student webspace: http://web.engr.oregonstate.edu/~sum/IoT_lockbox/main_page/ 
 
 1. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu)
 2. Enter ONID id: sum and password: woyaochitudou0411 and pass duo authentication.
 3. Enter command `cd public_html`
 4. Enter command `cd IoT_lockbox`
 5. Now you are able to edit any files on the server.
-6. To see any changes after you edit a file, go to http://web.engr.oregonstate.edu/~sum \
+6. To see any changes after you edit a file, go to http://web.engr.oregonstate.edu/~sum 
 7. Go to folder “IoT_lockbox”
 8. Click on “main_page” then you will see the main webpage
 
@@ -36,7 +36,7 @@ Optional: If you want to run the code on your own webspace, you have to do the f
   e. Go to your web browser and go to http://web.engr.oregonstate.edu/~[your_engineering_username] \
   f. Go to folder “lockboxWebsite” \
   g. Go to folder “IoT_lockbox” \
-  h. Click on file “main_page” and you will redirect to the main webpage \
+  h. Click on file “main_page” and you will redirect to the main webpage 
 
 # How does the website works
 1. Website work process: https://drive.google.com/open?id=1cxUDHE3loHT4tZ4Sa_1rVfzUBxQ51DrZ
