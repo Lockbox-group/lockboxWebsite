@@ -42,7 +42,7 @@ Optional: If you want to run the code on your own webspace, you have to do the f
 # How does the website works
 1. Website work process: https://drive.google.com/open?id=1cxUDHE3loHT4tZ4Sa_1rVfzUBxQ51DrZ \
   a. When testing admin login, use ONID: sum Password: woyaochitudou0411
-  B. When testing the "pickup package part", you need to make sure that the admin has successffully logout in the "admin page".
+  b. When testing the "pickup package part", you need to make sure that the admin has successffully logout in the "admin page".
 
 2. Check if admin login or not: https://drive.google.com/open?id=1e5zBKJMMxYsENPCeOn-Tijri9meee7d4
 3. EECE lockbox video: https://drive.google.com/a/oregonstate.edu/file/d/1Dg5efGddvlHtViF0bF_CeFcUCx_QkUcX/view?usp=sharing
