@@ -24,7 +24,7 @@ This code directory is fully installed on a student webspace: http://web.engr.or
 6. To see any changes after you edit a file, go to http://web.engr.oregonstate.edu/~sum 
 7. Go to folder “IoT_lockbox”
 8. Click on “main_page” then you will see the main webpage
-
+****
 Optional: If you want to run the code on your own webspace, you have to do the following:
 1. Send an email to the Information Services office (iamteam@oregonstate.edu)  to get CAS authorization for your website.
 2. Ask one of the faculty members (client, instructor, etc.) to send a verification email to the IS office.
@@ -37,12 +37,13 @@ Optional: If you want to run the code on your own webspace, you have to do the f
   f. Go to folder “lockboxWebsite” \
   g. Go to folder “IoT_lockbox” \
   h. Click on file “main_page” and you will redirect to the main webpage 
+****
 
 # How does the website works
 1. Website work process: https://drive.google.com/open?id=1cxUDHE3loHT4tZ4Sa_1rVfzUBxQ51DrZ
-****
+
 if want to test the "pickup package part", you need to make sure that the admin has successffully logout in the "admin page".
-****
+
 2. Check if admin login or not: https://drive.google.com/open?id=1e5zBKJMMxYsENPCeOn-Tijri9meee7d4
 3. EECE lockbox video: https://drive.google.com/a/oregonstate.edu/file/d/1Dg5efGddvlHtViF0bF_CeFcUCx_QkUcX/view?usp=sharing
 
