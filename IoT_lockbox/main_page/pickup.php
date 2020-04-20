@@ -1,6 +1,6 @@
 <?php
 
-
+	/*student pick up the package*/
 	$enteredStudentID = $_POST ['student_id']; 
     $enteredPasscode = $_POST ['passcode']; 
 	
