@@ -28,15 +28,15 @@ This code directory is fully installed on a student webspace: http://web.engr.or
 Optional: If you want to run the code on your own webspace, you have to do the following:
 1. Send an email to the Information Services office (iamteam@oregonstate.edu)  to get CAS authorization for your website.
 2. Ask one of the faculty members (client, instructor, etc.) to send a verification email to the IS office.
-3. Once you get a response from them, clone the github repository to your own public_html folder.
-  a. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu)
-  b. Enter your ONID id and password and pass duo authentication.
-  c. Enter command `cd public_html`
-  d. Enter command `git clone https://github.com/Lockbox-group/lockboxWebsite.git`
-  e. Go to your web browser and go to http://web.engr.oregonstate.edu/~[your_engineering_username]
-  f. Go to folder “lockboxWebsite”
-  g. Go to folder “IoT_lockbox”
-  h. Click on file “main_page” and you will redirect to the main webpage
+3. Once you get a response from them, clone the github repository to your own public_html folder.\
+  a. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu) \
+  b. Enter your ONID id and password and pass duo authentication. \
+  c. Enter command `cd public_html` \
+  d. Enter command `git clone https://github.com/Lockbox-group/lockboxWebsite.git` \
+  e. Go to your web browser and go to http://web.engr.oregonstate.edu/~[your_engineering_username] \
+  f. Go to folder “lockboxWebsite” \
+  g. Go to folder “IoT_lockbox” \
+  h. Click on file “main_page” and you will redirect to the main webpage \
 
 # How does the website works
 
