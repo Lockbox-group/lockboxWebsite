@@ -59,10 +59,10 @@ if (isset($_REQUEST['logout'])) {
 	phpCAS::logout();
 }
 
-// for this test, simply print that the authentication was successfull
+
 ?>
 
-
+//check admin login
 <html>
 <?php
 include ('connectDB.php');
@@ -93,7 +93,7 @@ $mysqli->close();
 ?>
 </html>
 
-<!-- comment
+<!-- comment // for this test, simply print that the authentication was successfull
 <html>
 <head>
 <title>phpCAS simple client</title>
