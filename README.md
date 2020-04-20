@@ -12,10 +12,33 @@ Tekbots store: https://eecs.oregonstate.edu/tekbots/store
 CS: Mingming Su, Julie Kuang\
 ECE: Cody Nhem, Jacob Gibson
 
-# How to run
-Method 1: Click the link: http://web.engr.oregonstate.edu/~sum/IoT_lockbox/main_page/ \
-Method 2: Download the code and put it in your engineer pubilc webspace file (pubilc_html). And run the link: http://web.engr.oregonstate.edu/~USERNAME/IoT_lockbox/main_page/ \
-*403 forbidden Problem: if you got the 403 forbidden problem when running in your webspace, please go the the TEACH to reset the website premission and reload again.
+# Set up
+
+This code directory is fully installed on a student webspace: http://web.engr.oregonstate.edu/~sum/IoT_lockbox/main_page/ \
+
+1. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu)
+2. Enter ONID id: sum and password: woyaochitudou0411 and pass duo authentication.
+3. Enter command `cd public_html`
+4. Enter command `cd IoT_lockbox`
+5. Now you are able to edit any files on the server.
+6. To see any changes after you edit a file, go to http://web.engr.oregonstate.edu/~sum \
+7. Go to folder “IoT_lockbox”
+8. Click on “main_page” then you will see the main webpage
+
+Optional: If you want to run the code on your own webspace, you have to do the following:
+1. Send an email to the Information Services office (iamteam@oregonstate.edu)  to get CAS authorization for your website.
+2. Ask one of the faculty members (client, instructor, etc.) to send a verification email to the IS office.
+3. Once you get a response from them, clone the github repository to your own public_html folder.
+  a. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu)
+  b. Enter your ONID id and password and pass duo authentication.
+  c. Enter command `cd public_html`
+  d. Enter command `git clone https://github.com/Lockbox-group/lockboxWebsite.git`
+  e. Go to your web browser and go to http://web.engr.oregonstate.edu/~[your_engineering_username]
+  f. Go to folder “lockboxWebsite”
+  g. Go to folder “IoT_lockbox”
+  h. Click on file “main_page” and you will redirect to the main webpage
+
+# How does the website works
 
 # Function Introduce (NOW)
 1. For admin, using CAS way to login in.
