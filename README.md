@@ -17,7 +17,7 @@ ECE: Cody Nhem, Jacob Gibson
 This code directory is fully installed on a student webspace: http://web.engr.oregonstate.edu/~sum/IoT_lockbox/main_page/ 
 
 1. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu)
-2. Enter ONID id: sum and password: woyaochitudou0411 and pass duo authentication.
+2. Enter ONID id: sum and password: woyaochitudou0411 and pass duo authentication. (Please email to :sum@oregonstate.edu if need to pass duo authentication when not in the code review time, thank you)
 3. Enter command `cd public_html`
 4. Enter command `cd IoT_lockbox`
 5. Now you are able to edit any files on the server.
