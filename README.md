@@ -16,8 +16,8 @@ ECE: Cody Nhem, Jacob Gibson
 
 This code directory is fully installed on a student webspace: http://web.engr.oregonstate.edu/~sum/IoT_lockbox/main_page/ 
 
-1. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu)
-2. Enter ONID id: sum and password: woyaochitudou0411 and pass duo authentication. (Please email to :sum@oregonstate.edu if need to pass duo authentication when not in the code review time, thank you)
+1. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu) OR if on Linus&Mac Machine, opent the "Terminal" and connect to the flip server (flip.engr.oreognstate.edu).
+2. Enter ONID id: sum and password: woyaochitudou0411 and pass duo authentication. (Please email to :sum@oregonstate.edu if need to pass duo authentication, thank you)
 3. Enter command `cd public_html`
 4. Enter command `cd IoT_lockbox`
 5. Now you are able to edit any files on the server.
@@ -29,7 +29,7 @@ Optional: If you want to run the code on your own webspace, you have to do the f
 1. Send an email to the Information Services office (iamteam@oregonstate.edu)  to get CAS authorization for your website.
 2. Ask one of the faculty members (client, instructor, etc.) to send a verification email to the IS office.
 3. Once you get a response from them, clone the github repository to your own public_html folder.\
-  a. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu) \
+  a. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu) OR if on Linus&Mac Machine, opent the "Terminal" and connect to the flip server (flip.engr.oreognstate.edu).\
   b. Enter your ONID id and password and pass duo authentication. \
   c. Enter command `cd public_html` \
   d. Enter command `git clone https://github.com/Lockbox-group/lockboxWebsite.git` \
