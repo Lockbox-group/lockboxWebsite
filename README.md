@@ -16,7 +16,7 @@ ECE: Cody Nhem, Jacob Gibson
 
 This code directory is fully installed on a student webspace: http://web.engr.oregonstate.edu/~sum/IoT_lockbox/main_page/ 
 
-1. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu) OR if on Linus&Mac Machine, opent the "Terminal" and connect to the flip server (flip.engr.oreognstate.edu).
+1. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu) OR if on Linus&Mac Machine, open the "Terminal" and connect to the flip server (flip.engr.oreognstate.edu).
 2. Enter ONID id: sum and password: woyaochitudou0411 and pass duo authentication. (Please email to :sum@oregonstate.edu if need to pass duo authentication, thank you)
 3. Enter command `cd public_html`
 4. Enter command `cd IoT_lockbox`
@@ -29,7 +29,7 @@ Optional: If you want to run the code on your own webspace, you have to do the f
 1. Send an email to the Information Services office (iamteam@oregonstate.edu)  to get CAS authorization for your website.
 2. Ask one of the faculty members (client, instructor, etc.) to send a verification email to the IS office.
 3. Once you get a response from them, clone the github repository to your own public_html folder.\
-  a. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu) OR if on Linus&Mac Machine, opent the "Terminal" and connect to the flip server (flip.engr.oreognstate.edu).\
+  a. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu) OR if on Linus&Mac Machine, open the "Terminal" and connect to the flip server (flip.engr.oreognstate.edu).\
   b. Enter your ONID id and password and pass duo authentication. \
   c. Enter command `cd public_html` \
   d. Enter command `git clone https://github.com/Lockbox-group/lockboxWebsite.git` \
@@ -52,7 +52,7 @@ Optional: If you want to run the code on your own webspace, you have to do the f
 2. Send the package in the send package page and send the email to the student email.
 3. For student, enter the information in the main page to open the box.
 
-# Function Introduce (Future)
-1. Send the signal through the WIFI to the lockbox and the lockbox will open.
-2. After students pickup the package, they will recieve the email, like " Your package had picked up".
-3. History: Admin can check the send package history.
+# Next Step
+1. After students pickup the package, they will recieve the email, like " Your package had picked up". This will improve the security for the lockbox.
+2. History: Admin can check the send package history.
+3. Add the session PHP and cookie to improve the passcode security.
