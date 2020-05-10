@@ -26,7 +26,7 @@ This code directory is fully installed on a student webspace: http://web.engr.or
 8. Click on “main_page” then you will see the main webpage
 ****
 Optional: If you want to run the code on your own webspace, you have to do the following:
-1. Send an email to the Information Services office (iamteam@oregonstate.edu)  to get CAS authorization for your website.
+1. Send an email to the Information Services office (iamteam@oregonstate.edu)  to get CAS authorization for your website.(link: http://onid.oregonstate.edu/docs/technical/cas.shtml)
 2. Ask one of the faculty members (client, instructor, etc.) to send a verification email to the IS office.
 3. Once you get a response from them, clone the github repository to your own public_html folder.\
   a. Download and open putty and connect to the flip server (flip.engr.oreognstate.edu) OR if on Linus&Mac Machine, open the "Terminal" and connect to the flip server (flip.engr.oreognstate.edu).\
