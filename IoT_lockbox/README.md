@@ -2,7 +2,8 @@
 
 ## history
 
-This is the history page for the admin that admin can check the package information that they sent before.
+This is the history page for the admin that admin can check the package information that they sent before./
+(Still need to improve)
 
 ## login
 
