@@ -12,6 +12,7 @@ if ($mysqli->connect_errno) {
 
 
 //CREATE TABLE "lockbox" ONCE
+// The test for connecting with database
 echo 'Successfully connected to database!';
 $sql = "CREATE TABLE IF NOT EXISTS lockbox(
     _id INT PRIMARY KEY AUTO_INCREMENT,
