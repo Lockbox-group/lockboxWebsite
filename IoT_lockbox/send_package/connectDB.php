@@ -1,5 +1,5 @@
 <?php
-
+//connect with database
 $dbhost = 'oniddb.cws.oregonstate.edu';
 $dbname = 'kuangqi-db';
 $dbuser = 'kuangqi-db';
