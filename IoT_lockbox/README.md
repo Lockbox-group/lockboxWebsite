@@ -25,5 +25,5 @@ After successfully picking up the package, it will turn to this page.
 
 ## DBsetup.php
 
-This file is used to connect the database
+This file is used to connect the database.
 
